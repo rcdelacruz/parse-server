@@ -14,8 +14,7 @@ WORKDIR /parse-server
 RUN npm install && \
     npm run build
 
-ENV PORT=1337
 
-EXPOSE $PORT
+EXPOSE 8080
 
 ENTRYPOINT ["npm", "start", "--"]
