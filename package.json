@@ -74,7 +74,7 @@
     "pretest": "npm run lint",
     "test": "cross-env MONGODB_VERSION=${MONGODB_VERSION:=3.2.6} MONGODB_STORAGE_ENGINE=mmapv1 TESTING=1 jasmine",
     "coverage": "cross-env MONGODB_VERSION=${MONGODB_VERSION:=3.2.6} MONGODB_STORAGE_ENGINE=mmapv1 TESTING=1 nyc jasmine",
-    "start": "node ./bin/parse-server",
+    "start": "node ./bin/parse-server --appId myAppId --masterKey myMasterKey --databaseURI mongodb://mongouser:password@localhost/sampledb",
     "prepare": "npm run build",
     "postinstall": "node -p 'require(\"./postinstall.js\")()'"
   },
