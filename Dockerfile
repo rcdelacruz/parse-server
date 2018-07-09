@@ -16,7 +16,8 @@ VOLUME /parse-server/cloud
 WORKDIR /parse-server
 
 RUN npm install && \
-    npm run build
+    npm install --global flow-bin && \
+    npm run build 
 
 
 EXPOSE 8080
