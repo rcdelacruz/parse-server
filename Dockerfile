@@ -23,4 +23,4 @@ RUN npm install && \
 EXPOSE 8080
 
 #ENTRYPOINT ["npm", "start", "--", "--appId",  "myappid", "--masterKey", "mymasterkey",  "--serverURL", "http://10.129.1.222/parse", "--databaseURI", "mongodb://mongouser:password@172.30.224.52:27017/sampledb"]
-ENTRYPOINT ["npm", "start", "--", "--appId",  "myappid", "--masterKey", "mymasterkey",  "--serverURL", "http://10.129.1.222/parse", "--databaseURI", "mongodb://mong:password@172.30.54.3:27017/sampledb"]
+ENTRYPOINT ["npm", "start", "--", "--appId",  "myappid", "--masterKey", "mymasterkey",  "--serverURL", "http://10.129.1.222/parse", "--databaseURI", "mongodb://mongouser:password@172.30.122.102:27017/sampledb"]
