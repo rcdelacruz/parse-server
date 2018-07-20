@@ -2,6 +2,7 @@
    "appId": "myAppId",
    "masterKey": "myMasterKey",
    "serverURL": "http://172.30.53.60:8080/parse",
+   "publicServerURL": "https://parse-server.stratpoint.io/parse",
    "databaseURI": "mongodb://mongouser:password@172.30.43.11:27017/sampledb",
    "push": {
       "android": {
