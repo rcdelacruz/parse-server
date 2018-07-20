@@ -14,7 +14,7 @@
             "teamId": "A8PVFGP356"
          },
          "topic": "com.stratpoint.brewery",
-         "production": true
+         "production": false
       }
    }
 }
