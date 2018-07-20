@@ -1,7 +1,7 @@
 {
    "appId": "myAppId",
    "masterKey": "myMasterKey",
-   "serverURL": "http://parse-server.parse.svc/parse",
+   "serverURL": "http://172.30.53.60:8080/parse",
    "databaseURI": "mongodb://mongouser:password@172.30.43.11:27017/sampledb",
    "push": {
       "android": {
@@ -14,7 +14,8 @@
             "teamId": "A8PVFGP356"
          },
          "topic": "com.stratpoint.brewery",
-         "production": false
+         "production": true
       }
    }
+   "production": true
 }
