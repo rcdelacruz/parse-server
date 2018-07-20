@@ -3,10 +3,6 @@ FROM node:carbon
 RUN mkdir -p /parse-server
 COPY ./ /parse-server/
 
-ENV APP_ID myappid
-ENV MASTER_KEY mymasterkey
-ENV DATABASE_URI mongodb://mongouser:password@localhost:27017/sampledb
-
 RUN mkdir -p /parse-server/config
 VOLUME /parse-server/config
 
