@@ -8,7 +8,7 @@
    "fileKey": "",
    "liveQuery": {
         "classNames": [ "Posts", "Comments" ]
-    }
+    },
    "push": {
       "android": {
          "apiKey": "AAAAMzUd5eE:APA91bEP7UsMa2z2oVp-3Nr6JJ_OxHMI-eRO2vWGmBENdfXYRf_4xFTucEz-BPe1w1jVfXGs0CWqt7aDgv8KOqD57OFPHEf2yocR_SYpJ9eJcyVVvq1KkT43i6HK118KdXyXQVRqv3WImNQIsETL1cjxRoPzvHooEg"
