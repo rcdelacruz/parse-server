@@ -45,6 +45,7 @@ export class FeaturesRouter extends PromiseRouter {
           editClassLevelPermissions: true,
           editPointerPermissions: true,
         },
+        generalSettings: true
       };
 
       return { response: {
